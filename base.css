@@ -20,12 +20,27 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(153, 158, 158);
     padding: 10px 20px 0px;
 }
-.header {
-    background-color: rgb(5, 108, 108);
+.header-index {
     min-height: 150px;
+    background-image: url("/imgs/header-index.jpg");
+}
+
+.header-hours {
+    min-height: 150px;
+    background-image: url("/imgs/header-horarios.jpg");
+}
+
+.header-contacts {
+    min-height: 150px;
+    background-image: url("/imgs/header-contatos.jpg");
+}
+
+.header-about {
+    min-height: 150px;
+    background-image: url("/imgs/header-sobre.jpg");
 }
 .content {
     background-color: white;
@@ -33,6 +48,6 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
     min-height: 150px;
+    background-image: url("/imgs/footer-bg.png");
 }
